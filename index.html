@@ -1,0 +1,33 @@
+---
+layout: default
+titleCaption: <h1 class="text-center"> Capital Investments at Berkeley </h1>
+---
+<div class="container-fluid full-screen">
+  <div id="landing-page-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#landing-page-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#landing-page-carousel" data-slide-to="1"></li>
+      <li data-target="#landing-page-carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="centered item active generic-berkeley">
+        <div class="centered caption-text full-screen">
+          {{ page.titleCaption }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#landing-page-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#landing-page-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>

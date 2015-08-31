@@ -1,0 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+.navbar.transparent {
+    background: rgba(0, 0, 0, .4);
+    margin: 0;
+    border: 0;
+}
+
+.full-screen {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.caption-text {
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    color: #fff;
+}
+
+.generic-berkeley {
+    background: url('/imgs/lolberk.jpg') no-repeat right top;
+    background-size: cover;
+}
+
+.cib-team {
+    background: url('/imgs/lolberk.jpg') no-repeat right top;
+}
